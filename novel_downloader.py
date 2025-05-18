@@ -201,7 +201,7 @@ class NovelDownloader:
                 return
 
             # 访问第一个URL并等待登录
-            self.driver.get('https://xn--pxtr7m.com/')
+            self.driver.get('https://xxxx.com/')        #改为目标网站主页地址
             print(f"请在 {self.login_wait} 秒内完成登录...")
             time.sleep(self.login_wait)
 

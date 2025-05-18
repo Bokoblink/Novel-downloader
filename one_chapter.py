@@ -26,7 +26,7 @@ class NovelDownloader:
         self.driver_path = 'chromedriver.exe'  # 使用正斜杠避免转义问题
 
         # 基本配置参数
-        self.url = "https://xn--pxtr7m.com/posts/xxxxxxxx"  #替换为章节地址
+        self.url = "https://xxxx/posts/xxxxxxxx"  #替换为章节地址
         self.login_wait = 3  # 登录等待时间(秒)
         self.page_load_wait = 1  # 页面加载等待时间(秒)
 
